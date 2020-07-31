@@ -1,4 +1,4 @@
-# Tomcat
+# HyperFrameOE-Tomcat
 
 This is a group of Tomcat Docker files with versions for HyperFrame Open Edition.
 

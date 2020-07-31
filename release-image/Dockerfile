@@ -1,4 +1,4 @@
-# hyperframe-tomcat : version : lastest
+# hyperframeoe-tomcat : version : lastest
 FROM openjdk:8
 # ref ) https://hub.docker.com/_/openjdk
 
@@ -6,7 +6,7 @@ FROM openjdk:8
 ENV TOMCAT_BINARY_FILE  apache-tomcat-lastest.tar.gz
 
 
-ENV TOMCAT_BINARY_URL  https://github.com/TmaxSoftOfficial/HyperFrameOE-Tomcat/raw/master
+ENV TOMCAT_BINARY_URL  https://github.com/TmaxSoftOfficial/hyperframeOE-Tomcat/raw/master
 #ENV TOMCAT_BINARY_URL  http://192.168.13.200/install/hyperframeOE/tomcat/
 
 ENV CATALINA_HOME   /usr/local/tomcat
@@ -26,5 +26,7 @@ RUN set -eux; \
     sh $CATALINA_HOME/bin/version.sh;
 
 EXPOSE 8080
+
+CMD ["catalina.sh", "run"]
 
 

@@ -1,12 +1,9 @@
-# hyperframe-tomcat : version : lastest
-FROM hyperframe-tomcat
+# hyperframeoe-tomcat : version : lastest
+FROM hyperframeoe-tomcat
 
 WORKDIR $CATALINA_HOME
 
-# 4) copy user's configuration/apps to image
+# copy user's configuration/apps to image
 COPY ./conf ./conf
 COPY ./webapps ./webapps
-
-CMD ["catalina.sh", "run"]
-
 

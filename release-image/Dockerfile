@@ -6,8 +6,8 @@ FROM openjdk:8
 ENV TOMCAT_BINARY_FILE  apache-tomcat-lastest.tar.gz
 
 
-#ENV TOMCAT_BINARY_URL  https://github.com/TmaxSoftOfficial/Tomcat/raw/master
-ENV TOMCAT_BINARY_URL  http://192.168.13.200/install/hyperframeOE/tomcat/
+ENV TOMCAT_BINARY_URL  https://github.com/TmaxSoftOfficial/HyperFrameOE-Tomcat/raw/master
+#ENV TOMCAT_BINARY_URL  http://192.168.13.200/install/hyperframeOE/tomcat/
 
 ENV CATALINA_HOME   /usr/local/tomcat
 ENV CLASSPATH       .:$JAVA_HOME/lib/tools.jar:$CATALINA_HOME/lib/jsp-api.jar:$CATALINA_HOME/lib/servlet-api.jar

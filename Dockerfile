@@ -26,7 +26,7 @@ ENV PATH            $JAVA_HOME/bin:$CATALINA_HOME/bin:$PATH
 #COPY $TOMCAT_VERSION.tar.gz $SOURCE_PATH/
 #COPY $OPENJDK_FOLDER.tar.gz $SOURCE_PATH/
 RUN wget https://github.com/TmaxSoftOfficial/HyperFrameOE-Tomcat/raw/8.5.x/OpenJDK8U-jdk_x64_linux_hotspot_8u252b09.tar.gz -p $SOURCE_PATH/
-RUN wget https://github.com/TmaxSoftOfficial/HyperFrameOE-Tomcat/blob/8.5.x/apache-tomcat-8.5.50.tar.gz -p $SOURCE_PATH/
+RUN wget https://github.com/TmaxSoftOfficial/HyperFrameOE-Tomcat/raw/8.5.x/apache-tomcat-8.5.50.tar.gz -p $SOURCE_PATH/
 
 
 # 3) set (jdk, tomcat)symbolic link

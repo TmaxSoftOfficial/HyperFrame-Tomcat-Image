@@ -23,8 +23,10 @@ ENV CLASSPATH       .:$JAVA_HOME/lib/tools.jar:$CATALINA_HOME/lib/jsp-api.jar:$C
 ENV PATH            $JAVA_HOME/bin:$CATALINA_HOME/bin:$PATH
 
 # 2) copy source(jdk, tomcat) to image
-COPY $TOMCAT_VERSION.tar.gz $SOURCE_PATH/
-COPY $OPENJDK_FOLDER.tar.gz $SOURCE_PATH/
+#COPY $TOMCAT_VERSION.tar.gz $SOURCE_PATH/
+#COPY $OPENJDK_FOLDER.tar.gz $SOURCE_PATH/
+RUN wget https://github.com/TmaxSoftOfficial/HyperFrameOE-Tomcat/raw/8.5.x/OpenJDK8U-jdk_x64_linux_hotspot_8u252b09.tar.gz -p $SOURCE_PATH/
+
 
 # 3) set (jdk, tomcat)symbolic link
 RUN set -eux; \

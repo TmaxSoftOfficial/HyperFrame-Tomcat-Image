@@ -36,7 +36,7 @@ ${pwd}
 |- Dockerfile                                            # Dockerfile for user desired setting created using base tomcat image above          
 |- OpenJDK8U-jdk_x64_linux_hotspot_8u252b09.tar.gz
 |- README.md                   
-|-apache-tomcat-8.5.50.tar.gz
+|- apache-tomcat-8.5.50.tar.gz
 ```              
 
 ### Installation Steps

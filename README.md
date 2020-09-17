@@ -16,24 +16,27 @@ Docker 19.03.12 (Workspace version, recommended)
 
 ```bash                                                                             
 ${pwd}                                                                       
-|- release-image                                     #                                                     
-|   |- Dockerfile                                         # Dockerfile versions (v20.3, v20.4, etc.)
-|- usage                                             #                                                     
-|   |- conf                                              # Configuration files
-|   |   |- catalina.policy                                   # Configuration file for Tomcat's security policy permissions
-|   |   |- catalina.properties                               # Contains shared definitions such as servers, shared loaders, and JARs that are searched when the server starts
-|   |   |- context.xml                                       # Loaded when running the application
-|   |   |- jaspic-providers.xml                              # Used for jaspic-providers.xml
-|   |   |- jaspic-providers.xsd                              # XSD file for jaspic-providers.xml
-|   |   |- logging.properties                                # Defines logging properties of Tomcat instance.
-|   |   |- server.xml                                        # Contains important information such as IP address and virtual host and context path
-|   |   |- tomcat-users.xml                                  # Used for authentication and approval according to role-based definitions
-|   |   |- tomcat-users.xsd                                  # XSD file for tomcat-users.xml
-|   |   |- web.xml                                           # Define the default values ​​for all applications when the Tomcat instance is started
-|   |- webapps                                           # Web applications that are basically provided by Tomcat binary files.
-|   |   |- <...>                                             # Directories in webapps directory
-|   |- Dockerfile                                        # Dockerfile for user desired setting created using base tomcat image above                                
-|- README.md                                                   
+|- conf                                                  # Configuration files             
+|   |- catalina.policy                                   # Configuration file for Tomcat's security policy permissions
+|   |- catalina.properties                               # Contains shared definitions such as servers, shared loaders, and JARs that are searched when the server starts|
+|   |- context.xml                                       # Loaded when running the application
+|   |- jaspic-providers.xml                              # Used for jaspic-providers.xml
+|   |- jaspic-providers.xsd                              # XSD file for jaspic-providers.xml
+|   |- logging.properties                                # Defines logging properties of Tomcat instance.
+|   |- server.xml                                        # Contains important information such as IP address and virtual host and context path
+|   |- tomcat-users.xml                                  # Used for authentication and approval according to role-based definitions
+|   |- tomcat-users.xsd                                  # XSD file for tomcat-users.xml
+|   |- web.xml                                           # Define the default values ​​for all applications when the Tomcat instance is started
+|- webapps                                               # Web applications that are basically provided by Tomcat binary files.                                                   
+|   |- ROOT                                              # Directories in webapps directory
+|   |- docs                                              # Directories in webapps directory
+|   |- examples                                          # Directories in webapps directory
+|   |- host-namager                                      # Directories in webapps directory
+|   |- manager                                           # Directories in webapps directory
+|- Dockerfile                                            # Dockerfile for user desired setting created using base tomcat image above          
+|- OpenJDK8U-jdk_x64_linux_hotspot_8u252b09.tar.gz
+|- README.md                   
+|-apache-tomcat-8.5.50.tar.gz
 ```              
 
 ### Installation Steps

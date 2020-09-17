@@ -29,11 +29,9 @@ ${pwd}
 |   |   |- server.xml                                        # Contains important information such as IP address and virtual host and context path
 |   |   |- tomcat-users.xml                                  # Used for authentication and approval according to role-based definitions
 |   |   |- tomcat-users.xsd                                  # XSD file for tomcat-users.xml
-|   |   |- web.xml                                           # Define the default values ​​for all applications when the Tomcat instance is started
-|   |- webapps                                           # Web applications that are basically provided by Tomcat binary files.
-|   |   |- <...>                                             # Directories in webapps directory
-|   |- Dockerfile                                        # Dockerfile for user desired setting created using base tomcat image above                                
-|- README.md                                                   
+|   |   |- web.xml                                           # Define the default values ​​for all applications when the Tomcat instance is started                            
+|- README.md    
+|- apache-tomcat-latest.tar.gz
 ```              
 
 ### Installation Steps

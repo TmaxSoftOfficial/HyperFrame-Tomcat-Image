@@ -38,7 +38,7 @@ ${pwd}
 
 ### Installation Steps
 
-#### 1. Download Dockerfile to the Tomcat-8.5 or Tomcat-9.0 directory.
+#### 1. Download Dockerfile to the Tomcat-9.0 directory.
 
 #### 2. To change the configuration, modify files under the conf and webapps directories.
 

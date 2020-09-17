@@ -9,8 +9,8 @@ Docker 19.03.12 (Workspace version, recommended)
 ### Requirements
 
 1) OS: Debian GNU/Linux 10 (Base OS of openjdk:8 in dockerhub)
-2) JDK: OpenJDK 8 (build number 252) 
-3) Tomcat: Tomcat 8.5.50, Tomcat 9.0.30
+2) JDK: OpenJDK 8 (build number 265) 
+3) Tomcat: 9.0.30
 
 ### Directory layout                                                         
 

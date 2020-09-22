@@ -31,7 +31,7 @@ ${pwd}
 |   |   |- tomcat-users.xsd                                  # XSD file for tomcat-users.xml
 |   |   |- web.xml                                           # Define the default values ​​for all applications when the Tomcat instance is started                            
 |   |- webapps                                               # Web applications that are basically provided by Tomcat binary files.
-|   |   |- ROOT                                              # Directories in webapps directory
+|   |   |   |- ROOT                                          # Directories in webapps directory
 |   |   |   |- docs                                          # Directories in webapps directory
 |   |   |   |- examples                                      # Directories in webapps directory
 |   |   |   |- host-namager                                  # Directories in webapps directory

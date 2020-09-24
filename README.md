@@ -94,7 +94,7 @@ $ docker run -d -p 8080:8080 tmaxsoftofficial/hyperframeoe-tomcat:latest
 
 ## License
 
-The license is contained in apache-tomcat-latest.tar.gz
+The license file LICENSE is included in the apache-tomcat-latest.tar.gz
 
 
 ## Version History

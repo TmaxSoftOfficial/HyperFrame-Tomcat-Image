@@ -72,7 +72,7 @@ $ docker run -d -p 8080:8080 <image_name>:<image_version>
 #### 1. Search for the Image.
 - It can be searched from Docker Hub (https://hub.docker.com/repository/docker/tmaxsoftofficial/hyperframeoe-tomcat) or with the following docker search command.
 ```bash 
-$ docker search hyperframeoe-apache
+$ docker search hyperframeoe-tomcat
 ```
 
 #### 2. Pull the Image.

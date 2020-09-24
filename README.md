@@ -82,12 +82,12 @@ $ docker pull tmaxsoftofficial/hyperframeoe-tomcat:latest
 
 #### 3. Build a Docker Image.
 ```bash
-$ docker build -t <create image_name>:<image_version> .
+$ docker build -t tmaxsoftofficial/hyperframeoe-tomcat:latest .
 ```
 
 #### 4. Generate a Container from the Image.
 ```bash
-$ docker run -d -p 8080:8080 <image_name>:<image_version>
+$ docker run -d -p 8080:8080 tmaxsoftofficial/hyperframeoe-tomcat:latest
 ```
 
 

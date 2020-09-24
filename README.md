@@ -52,7 +52,7 @@ ${pwd}
 
 #### 3. To change the configuration, modify files under the conf directory.
 
-#### 4. Place the Dockerfile and start.sh files and the conf, license, and ssl directories in the same path.
+#### 4. Place the Dockerfile in the release-image directorty.
 
 #### 5. Build a Docker Image.
 ```bash

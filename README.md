@@ -93,7 +93,7 @@ $ docker run -d -p 8080:8080 tmaxsoftofficial/hyperframeoe-tomcat:8.5.x
 
 ## License
 
-Projects are licensed under the Apache 2.0 license (be included in apache-tomcat-latest.tar.gz)
+The license is contained in apache-tomcat-latest.tar.gz
 
 ## Version History
 

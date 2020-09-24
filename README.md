@@ -2,15 +2,15 @@
 
 This Tomcat docker file is for HyperFrame Open Edition.
 
-### Prerequisites
+## Prerequisites
 
 Docker 19.03.12 (Workspace version, recommended)
 
-### Requirements
+## Requirements
 
-1) OS: Debian GNU/Linux 10 (Base OS of openjdk:8 in dockerhub)
-2) JDK: OpenJDK 8 (build number 265) 
-3) Tomcat: 9.0.30
+#### 1) OS: Debian GNU/Linux 10 (Base OS of openjdk:8 in dockerhub)
+#### 2) JDK: OpenJDK 8 (build number 265) 
+#### 3) Tomcat: 9.0.30
 
 ### Directory layout                                                         
 
@@ -40,35 +40,68 @@ ${pwd}
 |- apache-tomcat-latest.tar.gz
 ```              
 
-### Installation Steps
+## Installation Steps:
 
-#### 1. Download Dockerfile to the Tomcat-9.0 directory.
+### You can choose one of the following two installation methods.
 
-#### 2. To change the configuration, modify files under the conf and webapps directories.
+### Method 1. Using Dockerfile and binary downloaded from GitHub
 
-#### 3. Place the Dockerfile file and the conf and webapps directories in the same path.
+#### 1. Go to the following site: https://github.com/TmaxSoftOfficial/HyperFrameOE-Tomcat.
 
-#### 4. Build a Docker Image.
+#### 2. Download the Dockerfile and binary.
 
+#### 3. To change the configuration, modify files under the conf directory.
+
+#### 4. Place the Dockerfile and start.sh files and the conf, license, and ssl directories in the same path.
+
+#### 5. Build a Docker Image.
 ```bash
 $ docker build -t <create image_name>:<image_version> .
 ```
 
-#### 5. Generate a Container from the Image.
-
+#### 6. Generate a Container from the Image.
 ```bash
 $ docker run -d -p 8080:8080 <image_name>:<image_version>
 ```
 
-### License
+
+
+
+### Method 2. Using Image of Docker Hub
+
+#### 1. Search for the Image.
+- It can be searched from Docker Hub (https://hub.docker.com/repository/docker/tmaxsoftofficial/hyperframeoe-tomcat) or with the following docker search command.
+```bash 
+$ docker search hyperframeoe-apache
+```
+
+#### 2. Pull the Image.
+```bash
+$ docker pull tmaxsoftofficial/hyperframeoe-tomcat:latest
+```
+
+#### 3. Build a Docker Image.
+```bash
+$ docker build -t <create image_name>:<image_version> .
+```
+
+#### 4. Generate a Container from the Image.
+```bash
+$ docker run -d -p 8080:8080 <image_name>:<image_version>
+```
+
+
+
+## License
 
 Projects are licensed under the Apache 2.0 license.
 
-### Version History
+
+## Version History
 
 [HyperFrame OE, Tomcat 9.0.30](https://github.com/TmaxSoftOfficial/HyperFrameOE-Tomcat/blob/master/release-image/Dockerfile "dockerfile link") (latest)
 
-### HyperFrameOE Service Level
+## HyperFrameOE Service Level
 
 [HyperFrameOE Service Level](https://github.com/TmaxSoftOfficial/HyperFrameOE-About/blob/master/ServiceLevel.md)
 

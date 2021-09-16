@@ -46,7 +46,7 @@ ${pwd}
 
 ### Method 1. Using Dockerfile and binary downloaded from GitHub
 
-#### 1. Go to the following site: https://github.com/TmaxSoftOfficial/HyperFrameOE-Tomcat.
+#### 1. Go to the following site: https://github.com/TmaxSoftOfficial/HyperFrameOE-Tomcat-Image.
 
 #### 2. Download the Dockerfile and binary.
 

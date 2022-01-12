@@ -99,9 +99,9 @@ The license file LICENSE is included in the apache-tomcat-latest.tar.gz
 
 ## Version History
 
-[HyperFrame OE, Tomcat 9.0.30](https://github.com/TmaxSoftOfficial/HyperFrameOE-Tomcat/blob/master/release-image/Dockerfile "dockerfile link") (latest)
+[HyperFrame, Tomcat 9.0.30](https://github.com/TmaxSoftOfficial/HyperFrame-Tomcat/blob/master/release-image/Dockerfile "dockerfile link") (latest)
 
-## HyperFrameOE Service Level
+## HyperFrame Service Level
 
-[HyperFrameOE Service Level](https://github.com/TmaxSoftOfficial/HyperFrameOE-About/blob/master/ServiceLevel.md)
+[HyperFrame Service Level](https://github.com/TmaxSoftOfficial/HyperFrame-About/blob/master/ServiceLevel.md)
 

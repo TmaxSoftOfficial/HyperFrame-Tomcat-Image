@@ -1,6 +1,6 @@
-# HyperFrameOE-Tomcat
+# HyperFrame-Tomcat
 
-This Tomcat docker file is for HyperFrame Open Edition.
+This Tomcat docker file is for HyperFrame.
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ ${pwd}
 
 ### Method 1. Using Dockerfile and binary downloaded from GitHub
 
-#### 1. Go to the following site: https://github.com/TmaxSoftOfficial/HyperFrameOE-Tomcat-Image.
+#### 1. Go to the following site: https://github.com/TmaxSoftOfficial/HyperFrame-Tomcat-Image.
 
 #### 2. Download the Dockerfile and binary.
 

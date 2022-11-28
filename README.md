@@ -4,15 +4,15 @@ This Tomcat docker file is for HyperFrame.
 
 ## Prerequisites
 
-Docker 19.03.12 (Workspace version, recommended)
+Docker 20.10.18 (Workspace version, recommended)
 
 ## Requirements
 
 #### 1) OS: Debian GNU/Linux 10 (Base OS of openjdk:8 in dockerhub)
 #### 2) JDK: OpenJDK 8 (build number 265) 
-#### 3) Tomcat: 9.0.30
+#### 3) Tomcat: latest(9.0.30) & 9.0.52
 
-### Directory layout                                                         
+### Directory layout
 
 ```bash                                                                             
 ${pwd}                                                                       
@@ -36,7 +36,8 @@ ${pwd}
 |   |   |   |- examples                                      # Directories in webapps directory
 |   |   |   |- host-namager                                  # Directories in webapps directory
 |   |   |   |- manager                                       # Directories in webapps directory
-|- README.md    
+|- README.md
+|- apache-tomcat-9.0.52.tar.gz
 |- apache-tomcat-latest.tar.gz
 ```              
 
@@ -48,11 +49,11 @@ ${pwd}
 
 #### 1. Go to the following site: https://github.com/TmaxSoftOfficial/HyperFrame-Tomcat-Image.
 
-#### 2. Download the Dockerfile and binary.
+#### 2. Download the Dockerfile and binary. (The default setting is latest)
 
 #### 3. To change the configuration, modify files under the conf directory.
 
-#### 4. Place the Dockerfile in the release-image directorty.
+#### 4. Place the Dockerfile in the release-image directory.
 
 #### 5. Build a Docker Image.
 ```bash
@@ -71,6 +72,7 @@ $ docker run -d -p 8080:8080 <image_name>:<image_version>
 
 #### 1. Search for the Image.
 - It can be searched from Docker Hub (https://hub.docker.com/repository/docker/tmaxsoftofficial/hyperframeoe-tomcat) or with the following docker search command.
+- HyperframeOE-tomcat version of Docker Hub is 8.5.50
 ```bash 
 $ docker search hyperframeoe-tomcat
 ```
